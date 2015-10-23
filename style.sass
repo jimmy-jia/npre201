@@ -1,0 +1,76 @@
+$main-color: #2e3c50
+
+$main-font: "Roboto", sans-serif
+
+
+*
+	box-sizing: border-box
+body, html
+	margin: 0
+	padding: 0
+	width: 100%
+	max-width: 100%
+p
+	font-family: $main-font
+	padding: 0
+	margin: 0
+a
+	text-decoration: none
+	font-family: $main-font
+	transition: color .4s
+	&:hover
+		color: orange
+
+h1, h2, h3, h4, h5, h6
+	margin: 0
+	font-weight: normal
+	padding: 0
+
+
+.header
+	width: 100%
+	background-color: #ddd
+	text-align: center
+	padding: 40px 0
+	h1
+		font-weight: 300
+		font-size: 3em
+		font-family: $main-font
+		padding-bottom: 30px
+
+.title-description
+	width: 800px
+	margin: 0 auto
+	max-width: 100%
+	display: inline-block
+	vertical-align: top
+	text-align: left
+	line-height: 1.6
+.members
+	@extend .title-description
+	padding: 40px 20px
+	text-align: center
+	margin: 0 auto
+	display: block
+	h1:first-child
+		font-family: $main-font
+		font-weight: 300
+	h3
+		display: inline-block
+		margin-right: 10px
+
+.index
+	width: 600px
+	max-width: 100%
+	background-color: #ddd
+	margin: 0 auto
+	padding: 30px
+	margin-bottom: 40px
+	a
+		display: block
+		padding: 10px
+		&:hover
+			color: #0f0
+	h1
+		font-family: $main-font
+		font-weight: 300

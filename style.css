@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box; }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%; }
+
+p {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  transition: color 0.4s; }
+  a:hover {
+    color: orange; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+  padding: 0; }
+
+.header {
+  width: 100%;
+  background-color: #ddd;
+  text-align: center;
+  padding: 40px 0; }
+  .header h1 {
+    font-weight: 300;
+    font-size: 3em;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 30px; }
+
+.title-description, .members {
+  width: 800px;
+  margin: 0 auto;
+  max-width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  line-height: 1.6; }
+
+.members {
+  padding: 40px 20px;
+  text-align: center;
+  margin: 0 auto;
+  display: block; }
+  .members h1:first-child {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300; }
+  .members h3 {
+    display: inline-block;
+    margin-right: 10px; }
+
+.index {
+  width: 600px;
+  max-width: 100%;
+  background-color: #ddd;
+  margin: 0 auto;
+  padding: 30px;
+  margin-bottom: 40px; }
+  .index a {
+    display: block;
+    padding: 10px; }
+    .index a:hover {
+      color: #0f0; }
+  .index h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300; }
+
+/*# sourceMappingURL=style.css.map */
