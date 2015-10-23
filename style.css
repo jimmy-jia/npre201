@@ -17,7 +17,7 @@ a {
   font-family: "Roboto", sans-serif;
   transition: color 0.4s; }
   a:hover {
-    color: orange; }
+    color: red; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -67,9 +67,31 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     padding: 10px; }
     .index a:hover {
-      color: #0f0; }
+      color: #ff3333; }
   .index h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 300; }
+
+.main-text {
+  padding: 20px;
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+  line-height: 1.6; }
+
+.figure, .source {
+  display: block;
+  margin: 0 auto;
+  text-align: center; }
+
+.source {
+  font-size: 0.9em;
+  margin-top: 5px;
+  margin-bottom: 25px; }
+
+iframe {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
