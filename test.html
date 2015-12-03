@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 	<head>
-		<title>NPRE 201 Peltier Tiles - Test Background</title>
+		<title>NPRE 201 Peltier Tiles - Test Background and Findings</title>
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400|Open+Sans+Condensed:300|Lato|Montserrat|Source+Sans+Pro:400,700italic|Varela|Poiret One|Roboto:100,300,400,900|Roboto+Slab| Roboto+Condensed' rel='stylesheet' type='text/css'>
 		<link rel="icon" href="favicon.ico">
@@ -10,18 +10,67 @@
 	<body>
 		<div class="wrapper">
 			<div class="header">
-				<h1 class="title">Peltier Tiles - Test Background</h1>
+				<h1 class="title">Peltier Tiles - Test Background and Findings</h1>
 			</div>
 			<p class="main-text">For our project, we have decided to test the efficiency of Peltier tiles and critique their usage in a 3rd world environment as a source of power. We will be using Peltier tiles with cooling fans, various heat sources, and an IR thermometer to get our measurements. Using these, we will determine our view on the usefulness of Peltier tiles in 3rd world applications.</p>
 
+			<div class="main-text"><h1>Objective: </h1>
+				To observe the power output from a range of temperature differences on a Peltier tile
+				<br><br>
+				<h1>Variables: </h1>
+				<strong>Independent:</strong> Surface temperature<br>
+				<strong>Dependent:</strong> Voltage and Current generated
+				<br><br>
+				<h1>Limitations and considerations:</h1>
+				Limited budget and materials were available for this test, meaning accuracy is extremely low and results are limited. 
 
+				<h1>Equipment and Setup</h1>
+				<h3>Equipment:</h3>
+				<ul>
+					<li>TEC1-12706 Thermoelectric Cooler Heat Sink Cooling Peltier 12V 5.8A</li>
+					<li>Conventional Oven</li>
+					<li>Digital Multimeter</li>
+					<li>Digital Laser IR infrared Thermometer Temperature Gun</li>
+				</ul>
+				<img src="multi.png" class="figure"/>
+				<p class="source">Schematic for the setup of the experiment</p>
+
+				<br>
+
+				<img src="rl.png" class="figure"/>
+				<p class="source">Temperature Gun for measuring surface temperature of oven</p>
+
+				<br>
+
+				<h1>Procedure</h1>
+				<ul>
+					<li>Set up equipment</li>
+					<li>Set oven temperature</li>
+					<li>Record surface temperatures using the infrared thermometer and voltage and current generated using the multimeter every few minutes</li>
+					<li>Repeat for a range of temperatures of the oven</li>
+				</ul>
+				
+				<br>
+
+				<h1>Findings</h1>
+
+				<img src="results1.png" class="figure"/>
+				<p class="source">Our findings on power generated</p>
+
+				<h1>Things of note:</h1>
+				<ul>
+					<li>Highest temperature difference measured was around 5 degrees celsius</li>
+					<li>Highest power generated was around 0.425 mW</li>
+				</ul>
+			</div>
+			
 
 			<div class="index">
 				<h1>Table of Contents</h1>
 				<a href="index.html">Home</a>
 				<a href="theory.html">Theory</a>
 				<a href="knowledge.html">Current Knowledge</a>
-				<a href="test.html">Test Background</a>
+				<a href="test.html">Test Background and Findings</a>
 				<a href="applications.html">Potential Applications</a>
 				<a href="economics.html">Economics</a>
 				<a href="apptesting.html">Applications Testing</a>
